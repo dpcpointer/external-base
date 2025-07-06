@@ -22,8 +22,8 @@ extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg
 
 namespace window {
 	inline HWND hwnd;
-	static HINSTANCE instance;
-	static uint32_t width, height;
+	inline HINSTANCE instance;
+	inline uint32_t width, height;
 
 	namespace directx
 	{
